@@ -1,0 +1,21 @@
+TEST PLAN 2 for DUEL DUO GAME
+
+Overview:
+    Test the website game play functionality
+
+Links: http://localhost:4000/
+
+Test Criteria:
+    - Clicking the 'See All Bots' button on the main page should display bots
+    - Ensure 'wins' and 'Losses' on the main page are tallying correctly
+    - Clicking the 'Draw' button on the main page should start the game
+
+Entry Criteria:
+    - Has access to internet
+    - Has non-mobile browser
+
+Exit Criteria:
+    - All test pass
+
+Other Details:
+    - This assumes a fast internet connection

@@ -1,0 +1,38 @@
+BUG REPORT for TEST CASE 1
+
+March 24, 2023
+
+Description:
+    'Wins:' and 'Loses:' count does not add correctly. Both wins and 
+    losses are added to the 'Losses:' count.
+
+Steps to reproduce:
+    1. To start a duel, visit the website http://localhost:4000/ 
+
+    2. Click the 'Draw' button on the landing page.
+
+    3. Select the two robots with the highest health and click 'Add to Duo'.
+
+    4. Once the two robots have been selected, scroll down and click the 'Duel!' 
+       button to start a match.
+
+    5. Your selected two robots are compared against the computer's two robots.
+       If you didn't win, follow step 1-4 until you see the message 'You won!'
+
+    6. The 'Wins:' count should increment however, the wins are added and counted
+       in "Losses:'
+
+Expected Result:
+    - When the message 'You Won!' is displayed, the count for 'Wins:' should 
+      increase by one.
+
+Actual Result:
+    - When the message 'You Won!' displays, the count is added to 'Losses:' and
+      that increases by one.
+
+Environment:
+    - Google Chrome Version 111.0.5563.64 (Official Build) (arm64)
+    - MacOS 13.2.1 (22D68)
+
+Attachments:
+    <video>

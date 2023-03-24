@@ -1,0 +1,28 @@
+TEST CASE 1 (under TEST PLAN 2)
+
+Description:
+    'Wins' and 'Losses' should increment by one after each duel depending 
+    on game results.
+
+Steps:
+    1. Visit the website http://localhost:4000/ 
+
+    2. Click the 'Draw' button on the landing page to start a game.
+
+    3. Select two robots by clicking 'Add to Duo'.
+
+    4. Once two robots have been selected, scroll down and click the 'Duel!' 
+       button to start a match.
+
+    5. Your selected two robots are compared against the computer's two robots.
+
+    6. Either message 'You won!' or 'You lose!' will display depending on the 
+       health and attacks of your robots against the computers robots.
+
+    7. 'Wins:' and 'Losses:' will be updated with the new match results. If you
+       won, the 'Wins:' will increase by one. If you lost, the 'Losses:' will 
+       increase by one.
+
+Post conditions:
+    - Either the 'Wins:' or 'Losses:' count will display 1 depending on the 
+      results of the duel.
