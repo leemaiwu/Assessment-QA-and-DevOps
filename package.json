@@ -1,10 +1,10 @@
 {
   "name": "rollbar-test",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +21,15 @@
     "ts-jest": "^27.0.7",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leemaiwu/Assessment-QA-and-DevOps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leemaiwu/Assessment-QA-and-DevOps/issues"
+  },
+  "homepage": "https://github.com/leemaiwu/Assessment-QA-and-DevOps#readme",
+  "description": ""
 }
